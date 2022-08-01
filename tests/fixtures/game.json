@@ -1,0 +1,445 @@
+{
+  "coverUrl": "https://image.jeuxvideo.com/medias/163293/1632927582-7714-jaquette-avant.gif",
+  "bgImage": "https://image.jeuxvideo.com/medias/164942/1649423495-4342-artwork.png",
+  "releaseDate": "18 février 2022",
+  "reviews": {
+    "test": {
+      "id": 1530122,
+      "mark": 19
+    },
+    "userReviewAverage": 15,
+    "userReviewAverageDecimal": 15
+  },
+  "publishers": [
+    101125,
+    179410
+  ],
+  "news": {
+    "paging": {
+      "itemCount": 3,
+      "totalItemCount": 128
+    },
+    "items": [
+      {
+        "id": 1608595,
+        "category": 50,
+        "type": 54,
+        "title": "Horizon Forbidden West : un DLC en approche pour l'exclu PlayStation ? Des indices apparaissent sur la Toile",
+        "isEditor": false,
+        "publishDate": "2022-07-25T16:43:00+02:00",
+        "imageUrl": "https://image.jeuxvideo.com/medias/165876/1658760204-2379-card.jpg",
+        "machines": [
+          22,
+          20
+        ]
+      },
+      {
+        "id": 1603509,
+        "category": 50,
+        "type": 54,
+        "title": "Horizon Forbidden West : l'exclu PlayStation déjà élue jeu de l'année ",
+        "isEditor": false,
+        "publishDate": "2022-07-14T15:19:00+02:00",
+        "imageUrl": "https://image.jeuxvideo.com/medias/165780/1657804195-7863-card.jpg",
+        "machines": [
+          22,
+          20
+        ]
+      },
+      {
+        "id": 1599758,
+        "category": 50,
+        "type": 54,
+        "title": "Horizon Forbidden West : l'exclu PlayStation plus fluide que jamais grâce à une nouvelle mise à jour",
+        "isEditor": false,
+        "publishDate": "2022-07-06T15:37:00+02:00",
+        "imageUrl": "https://image.jeuxvideo.com/medias/165711/1657114614-8659-card.jpg",
+        "machines": [
+          22,
+          20
+        ]
+      }
+    ]
+  },
+  "videos": {
+    "paging": {
+      "itemCount": 3,
+      "totalItemCount": 34
+    },
+    "items": [
+      {
+        "id": 1599807,
+        "category": 13,
+        "type": 14,
+        "title": "Horizon Forbidden West : le support VRR et le mode 120 Hz dans la nouvelle mise à jour",
+        "publishDate": "2022-07-06T15:32:48+02:00",
+        "imageUrl": "https://image.jeuxvideo.com/medias/165711/1657114338-7860-card.jpg",
+        "webUrl": "https://www.jeuxvideo.com/videos/1599807/horizon-forbidden-west-le-support-vrr-et-le-mode-120-hz-dans-la-nouvelle-mise-a-jour.htm",
+        "machines": [
+          22,
+          20
+        ],
+        "relatedGame": {
+          "id": 1237618,
+          "title": "Horizon : Forbidden West",
+          "genres": [
+            2490,
+            2250
+          ],
+          "publishers": [
+            179410,
+            101125
+          ]
+        },
+        "targeting": {
+          "contenu_id": "1599807",
+          "genre": "action-rpg|open-world",
+          "machine": "ps5|ps4",
+          "editeur": "guerrilla|sony-interactive-entertainment",
+          "jeu": "horizon-forbidden-west",
+          "content_type": "bande-annonce",
+          "rubrique": "videos",
+          "section": "bande-annonce"
+        },
+        "videoUrls": [
+          {
+            "type": "272p",
+            "url": "https://video.jeuxvideo.com/videos_editeurs/h/o/horizon-forbidden-west-vrr-hfr-1580453-1657110211-low.mp4"
+          },
+          {
+            "type": "400p",
+            "url": "https://videohd.jeuxvideo.com/videos_editeurs/h/o/horizon-forbidden-west-vrr-hfr-1580453-1657110211-high.mp4"
+          },
+          {
+            "type": "720p",
+            "url": "https://video720.jeuxvideo.com/videos_editeurs/h/o/horizon-forbidden-west-vrr-hfr-1580453-1657110211-720p.mp4"
+          },
+          {
+            "type": "1080p",
+            "url": "https://video1080.jeuxvideo.com/videos_editeurs/h/o/horizon-forbidden-west-vrr-hfr-1580453-1657110211-1080p.mp4"
+          },
+          {
+            "type": "1440p",
+            "url": "https://video.jeuxvideo.com/videos_editeurs/h/o/horizon-forbidden-west-vrr-hfr-1580453-1657110211-1440p.mp4"
+          },
+          {
+            "type": "2160p",
+            "url": "https://video.jeuxvideo.com/videos_editeurs/h/o/horizon-forbidden-west-vrr-hfr-1580453-1657110211-2160p.mp4"
+          }
+        ],
+        "dailymotionId": "x8ca717",
+        "duration": 49,
+        "isContent": true,
+        "commentState": "open"
+      },
+      {
+        "id": 1583010,
+        "category": 13,
+        "type": 14,
+        "title": "Horizon Forbidden West : une nouvelle mise à jour majeure débarque",
+        "publishDate": "2022-06-03T14:27:03+02:00",
+        "imageUrl": "https://image.jeuxvideo.com/medias/165426/1654259204-1883-card.jpg",
+        "webUrl": "https://www.jeuxvideo.com/videos/1583010/horizon-forbidden-west-une-nouvelle-mise-a-jour-majeure-debarque.htm",
+        "machines": [
+          22,
+          20
+        ],
+        "relatedGame": {
+          "id": 1237618,
+          "title": "Horizon : Forbidden West",
+          "genres": [
+            2490,
+            2250
+          ],
+          "publishers": [
+            179410,
+            101125
+          ]
+        },
+        "targeting": {
+          "contenu_id": "1583010",
+          "genre": "action-rpg|open-world",
+          "machine": "ps5|ps4",
+          "editeur": "guerrilla|sony-interactive-entertainment",
+          "jeu": "horizon-forbidden-west",
+          "content_type": "bande-annonce",
+          "rubrique": "videos",
+          "section": "bande-annonce"
+        },
+        "videoUrls": [
+          {
+            "type": "272p",
+            "url": "https://video.jeuxvideo.com/videos_editeurs/h/o/horizon-forbidden-west-major-update-trailer-1562723-1654258764-low.mp4"
+          },
+          {
+            "type": "400p",
+            "url": "https://videohd.jeuxvideo.com/videos_editeurs/h/o/horizon-forbidden-west-major-update-trailer-1562723-1654258764-high.mp4"
+          },
+          {
+            "type": "720p",
+            "url": "https://video720.jeuxvideo.com/videos_editeurs/h/o/horizon-forbidden-west-major-update-trailer-1562723-1654258764-720p.mp4"
+          },
+          {
+            "type": "1080p",
+            "url": "https://video1080.jeuxvideo.com/videos_editeurs/h/o/horizon-forbidden-west-major-update-trailer-1562723-1654258764-1080p.mp4"
+          },
+          {
+            "type": "1440p",
+            "url": "https://video.jeuxvideo.com/videos_editeurs/h/o/horizon-forbidden-west-major-update-trailer-1562723-1654258764-1440p.mp4"
+          },
+          {
+            "type": "2160p",
+            "url": "https://video.jeuxvideo.com/videos_editeurs/h/o/horizon-forbidden-west-major-update-trailer-1562723-1654258764-2160p.mp4"
+          }
+        ],
+        "dailymotionId": "x8bceyh",
+        "duration": 41,
+        "isContent": true,
+        "commentState": "open"
+      },
+      {
+        "id": 1541630,
+        "category": 13,
+        "type": 19,
+        "title": "Qu'est ce qu'un bon Open-World ?",
+        "publishDate": "2022-03-11T16:49:59+01:00",
+        "imageUrl": "https://image.jeuxvideo.com/medias/164674/1646740109-8799-card.png",
+        "webUrl": "https://www.jeuxvideo.com/videos/chroniques/1541630/qu-est-ce-qu-un-bon-open-world.htm",
+        "machines": [
+          10,
+          22,
+          32,
+          177539,
+          20,
+          30
+        ],
+        "relatedGame": {
+          "id": 1237618,
+          "title": "Horizon : Forbidden West",
+          "genres": [
+            2490,
+            2250
+          ],
+          "publishers": [
+            179410,
+            101125
+          ]
+        },
+        "targeting": {
+          "contenu_id": "1541630",
+          "genre": "rpg|action|open-world|action-rpg|aventure",
+          "machine": "pc|ps5|xbox-series|switch|ps4|one",
+          "editeur": "nintendo|from-software|guerrilla|bandai-namco|the-pokemon-company|sony-interactive-entertainment",
+          "jeu": "horizon-forbidden-west|elden-ring|legendes-pokemon-arceus",
+          "content_type": "chronique",
+          "rubrique": "videos",
+          "section": "chronique"
+        },
+        "chronicle": 198789,
+        "videoUrls": [
+          {
+            "type": "272p",
+            "url": "https://video.jeuxvideo.com/chroniques/5/c/5cas-open-world-1518321-1646729519-low.mp4"
+          },
+          {
+            "type": "400p",
+            "url": "https://videohd.jeuxvideo.com/chroniques/5/c/5cas-open-world-1518321-1646729519-high.mp4"
+          },
+          {
+            "type": "720p",
+            "url": "https://video720.jeuxvideo.com/chroniques/5/c/5cas-open-world-1518321-1646729519-720p.mp4"
+          },
+          {
+            "type": "1080p",
+            "url": "https://video1080.jeuxvideo.com/chroniques/5/c/5cas-open-world-1518321-1646729519-1080p.mp4"
+          }
+        ],
+        "dailymotionId": "x89nyq3",
+        "duration": 628,
+        "isContent": true,
+        "commentState": "open"
+      }
+    ]
+  },
+  "images": {
+    "paging": {
+      "itemCount": 10,
+      "totalItemCount": 283
+    },
+    "items": [
+      {
+        "imageUrl": "https://image.jeuxvideo.com/medias/164942/1649423495-4342-artwork.png"
+      },
+      {
+        "imageUrl": "https://image.jeuxvideo.com/medias/164942/1649423431-2211-artwork.jpg"
+      },
+      {
+        "imageUrl": "https://image.jeuxvideo.com/medias/164935/1649348038-1750-capture-d-ecran.jpg"
+      },
+      {
+        "imageUrl": "https://image.jeuxvideo.com/medias/164935/1649347713-3699-capture-d-ecran.jpg"
+      },
+      {
+        "imageUrl": "https://image.jeuxvideo.com/medias/164935/1649347696-6671-capture-d-ecran.jpg"
+      },
+      {
+        "imageUrl": "https://image.jeuxvideo.com/medias/164935/1649347696-7295-capture-d-ecran.jpg"
+      },
+      {
+        "imageUrl": "https://image.jeuxvideo.com/medias/164935/1649347694-6744-capture-d-ecran.jpg"
+      },
+      {
+        "imageUrl": "https://image.jeuxvideo.com/medias/164935/1649347693-8042-capture-d-ecran.jpg"
+      },
+      {
+        "imageUrl": "https://image.jeuxvideo.com/medias/164924/1649241109-1047-capture-d-ecran.jpg"
+      },
+      {
+        "imageUrl": "https://image.jeuxvideo.com/medias/164924/1649241109-5093-capture-d-ecran.jpg"
+      }
+    ]
+  },
+  "wikis": {
+    "paging": {
+      "itemCount": 3,
+      "totalItemCount": 88
+    },
+    "items": [
+      {
+        "id": 1559716,
+        "category": 51,
+        "type": 71,
+        "title": "Apprendre à jouer à Attakth",
+        "isEditor": false,
+        "publishDate": "2022-04-07T18:15:00+02:00",
+        "imageUrl": "https://image.jeuxvideo.com/medias/164935/1649347302-7538-card.jpg",
+        "machines": [
+          22,
+          20
+        ]
+      },
+      {
+        "id": 1547746,
+        "category": 51,
+        "type": 71,
+        "title": "Nobles ambitions",
+        "isEditor": false,
+        "publishDate": "2022-04-04T10:24:00+02:00",
+        "imageUrl": "https://image.jeuxvideo.com/medias/164882/1648824116-6385-card.jpg",
+        "machines": [
+          22,
+          20
+        ]
+      },
+      {
+        "id": 1547775,
+        "category": 51,
+        "type": 71,
+        "title": "Ça passe ou ça boom",
+        "isEditor": false,
+        "publishDate": "2022-03-29T17:35:00+02:00",
+        "imageUrl": "https://image.jeuxvideo.com/medias/164848/1648479189-7822-card.jpg",
+        "machines": [
+          22,
+          20
+        ]
+      }
+    ]
+  },
+  "topics": {
+    "paging": {
+      "itemCount": 3,
+      "totalItemCount": 1180
+    },
+    "details": {
+      "forumId": 3018732
+    },
+    "items": [
+      {
+        "id": 68988805,
+        "title": "[OFFICIEL] votre avis sur le jeu",
+        "author": {
+          "id": 7665447,
+          "alias": "wissebwiss"
+        },
+        "lastMessageDate": "2022-07-22T14:59:29+02:00",
+        "flag": "pinned",
+        "nbAnswers": 223
+      },
+      {
+        "id": 69040001,
+        "title": "ASTUCE pour rendre le jeu bien plus agréable !",
+        "author": {
+          "id": 7803788,
+          "alias": "PenisUnder10"
+        },
+        "lastMessageDate": "2022-07-11T10:04:50+02:00",
+        "flag": "pinned",
+        "nbAnswers": 75
+      },
+      {
+        "id": 69524576,
+        "title": "Patch 1.12",
+        "author": {
+          "id": 495478,
+          "alias": "crazypat"
+        },
+        "lastMessageDate": "2022-05-24T16:31:50+02:00",
+        "flag": "pinned",
+        "nbAnswers": 36
+      }
+    ]
+  },
+  "stores": {
+    "paging": {
+      "itemCount": 1,
+      "totalItemCount": 2
+    },
+    "details": {
+      "bestPrice": 79.989999999999995
+    },
+    "items": [
+      {
+        "machine": 22,
+        "supports": [
+          {
+            "type": "online",
+            "label": "Jouer en ligne",
+            "title": "Horizon : Forbidden West",
+            "stores": [
+              {
+                "id": 7,
+                "price": 0,
+                "label": "Télécharger sur le Playstation Store",
+                "url": "https://store.playstation.com/fr-fr/product/EP9000-PPSA01521_00-FORBIDDENWESTPS5?emcid=ot-pl-411028"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "id": 1237618,
+  "category": 8,
+  "type": 9,
+  "title": "Horizon : Forbidden West",
+  "webUrl": "https://www.jeuxvideo.com/jeux/ps5/jeu-1237620/",
+  "machines": [
+    22
+  ],
+  "genres": [
+    2490,
+    2250
+  ],
+  "content": "Horizon : Forbidden West est la suite d'Horizon Zero Dawn. Le jeu d'action aventure sur PS5 nous propose de réincarner Aloy, l’héroïne du premier volet, dans un monde post-apocalyptique. Explorez des terres gelées jusqu'aux eaux tropicales en découvrant les ruines de l'ancien monde.",
+  "targeting": {
+    "contenu_id": "1237620",
+    "genre": "open-world|action-rpg",
+    "machine": "ps5",
+    "editeur": "guerrilla|sony-interactive-entertainment",
+    "jeu": "horizon-forbidden-west",
+    "content_type": "jeu",
+    "fiche": "jeux",
+    "section": "accueil"
+  }
+}

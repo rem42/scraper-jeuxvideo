@@ -1,0 +1,89 @@
+{
+  "paging": {
+    "page": 1,
+    "perPage": 20,
+    "itemCount": 5,
+    "totalPageCount": 1,
+    "totalItemCount": 5
+  },
+  "items": [
+    {
+      "id": 670897,
+      "category": 8,
+      "type": 49,
+      "title": "Horizon Zero Dawn : The Frozen Wilds",
+      "machines": [
+        10,
+        20
+      ],
+      "genres": [
+        2000
+      ],
+      "releaseDate": "07 novembre 2017",
+      "coverUrl": "https://image.jeuxvideo.com/medias/150212/1502116403-5923-jaquette-avant.jpg"
+    },
+    {
+      "id": 1237618,
+      "category": 8,
+      "type": 4,
+      "title": "Horizon : Forbidden West",
+      "machines": [
+        20,
+        22
+      ],
+      "genres": [
+        2240,
+        2250,
+        2490
+      ],
+      "releaseDate": "18 février 2022",
+      "coverUrl": "https://image.jeuxvideo.com/medias/163293/1632927582-7714-jaquette-avant.gif"
+    },
+    {
+      "id": 429582,
+      "category": 8,
+      "type": 4,
+      "title": "Horizon : Zero Dawn",
+      "machines": [
+        10,
+        20
+      ],
+      "genres": [
+        2000,
+        2070,
+        2240
+      ],
+      "releaseDate": "01 mars 2017",
+      "coverUrl": "https://image.jeuxvideo.com/medias/159379/1593790732-3615-jaquette-avant.jpg"
+    },
+    {
+      "id": 26273,
+      "category": 8,
+      "type": 9,
+      "title": "Shattered Horizon",
+      "machines": [
+        10
+      ],
+      "genres": [
+        2020,
+        2620
+      ],
+      "releaseDate": "04 novembre 2009",
+      "coverUrl": "https://image.jeuxvideo.com/images/jaquettes/00026273/jaquette-shattered-horizon-pc-cover-avant-g.jpg"
+    },
+    {
+      "id": 1512713,
+      "category": 8,
+      "type": 9,
+      "title": "Horizon : Call of the Mountain",
+      "machines": [
+        22
+      ],
+      "genres": [
+        2100
+      ],
+      "releaseDate": "Date de sortie inconnue",
+      "coverUrl": "https://image.jeuxvideo.com/medias/164137/1641371592-5305-jaquette-avant.jpg"
+    }
+  ]
+}

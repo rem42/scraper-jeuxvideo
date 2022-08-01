@@ -1,0 +1,41 @@
+{
+  "paging": {
+    "page": 1,
+    "perPage": 10,
+    "itemCount": 10,
+    "totalPageCount": 29,
+    "totalItemCount": 283
+  },
+  "items": [
+    {
+      "imageUrl": "https://image.jeuxvideo.com/medias/164942/1649423495-4342-artwork.png"
+    },
+    {
+      "imageUrl": "https://image.jeuxvideo.com/medias/164942/1649423431-2211-artwork.jpg"
+    },
+    {
+      "imageUrl": "https://image.jeuxvideo.com/medias/164935/1649348038-1750-capture-d-ecran.jpg"
+    },
+    {
+      "imageUrl": "https://image.jeuxvideo.com/medias/164935/1649347713-3699-capture-d-ecran.jpg"
+    },
+    {
+      "imageUrl": "https://image.jeuxvideo.com/medias/164935/1649347696-6671-capture-d-ecran.jpg"
+    },
+    {
+      "imageUrl": "https://image.jeuxvideo.com/medias/164935/1649347696-7295-capture-d-ecran.jpg"
+    },
+    {
+      "imageUrl": "https://image.jeuxvideo.com/medias/164935/1649347694-6744-capture-d-ecran.jpg"
+    },
+    {
+      "imageUrl": "https://image.jeuxvideo.com/medias/164935/1649347693-8042-capture-d-ecran.jpg"
+    },
+    {
+      "imageUrl": "https://image.jeuxvideo.com/medias/164924/1649241109-1047-capture-d-ecran.jpg"
+    },
+    {
+      "imageUrl": "https://image.jeuxvideo.com/medias/164924/1649241109-5093-capture-d-ecran.jpg"
+    }
+  ]
+}
