@@ -3,7 +3,6 @@
 namespace Scraper\ScraperJeuxVideo\Api;
 
 use Scraper\Scraper\Api\AbstractApi;
-use Scraper\ScraperAllocine\Exception\AllocineException;
 
 abstract class AbstractJeuxVideoApi extends AbstractApi
 {
