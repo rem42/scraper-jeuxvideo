@@ -2,11 +2,9 @@
 
 namespace Scraper\ScraperJeuxVideo\Request;
 
-use Scraper\Scraper\Annotation\Scraper;
+use Scraper\Scraper\Attribute\Scraper;
 
-/**
- * @Scraper(path="games/{id}/{machineId}/images")
- */
+#[Scraper(path: 'games/{id}/{machineId}/images')]
 final class JeuxVideoGameImagesRequest extends JeuxVideoRequest
 {
     protected int $id;

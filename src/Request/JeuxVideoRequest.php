@@ -2,14 +2,14 @@
 
 namespace Scraper\ScraperJeuxVideo\Request;
 
-use Scraper\Scraper\Annotation\Scraper;
+use Scraper\Scraper\Attribute\Method;
+use Scraper\Scraper\Attribute\Scheme;
+use Scraper\Scraper\Attribute\Scraper;
 use Scraper\Scraper\Request\RequestHeaders;
 use Scraper\Scraper\Request\RequestQuery;
 use Scraper\Scraper\Request\ScraperRequest;
 
-/**
- * @Scraper(host="api.jeuxvideo.com", scheme="HTTPS", method="GET", path="v4/")
- */
+#[Scraper(method: Method::GET, scheme: Scheme::HTTPS, host: 'api.jeuxvideo.com', path: 'v4/')]
 abstract class JeuxVideoRequest extends ScraperRequest implements RequestHeaders
 {
     protected string $path   = '';

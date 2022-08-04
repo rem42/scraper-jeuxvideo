@@ -2,11 +2,9 @@
 
 namespace Scraper\ScraperJeuxVideo\Request;
 
-use Scraper\Scraper\Annotation\Scraper;
+use Scraper\Scraper\Attribute\Scraper;
 
-/**
- * @Scraper(path="general/config")
- */
+#[Scraper(path: 'general/config')]
 final class JeuxVideoConfigRequest extends JeuxVideoRequest
 {
     protected function getPath(): string

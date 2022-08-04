@@ -2,12 +2,10 @@
 
 namespace Scraper\ScraperJeuxVideo\Request;
 
-use Scraper\Scraper\Annotation\Scraper;
+use Scraper\Scraper\Attribute\Scraper;
 use Scraper\Scraper\Request\RequestQuery;
 
-/**
- * @Scraper(path="search/games")
- */
+#[Scraper(path: 'search/games')]
 final class JeuxVideoSearchGameRequest extends JeuxVideoRequest implements RequestQuery
 {
     protected int $page     = 1;

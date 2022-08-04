@@ -2,12 +2,10 @@
 
 namespace Scraper\ScraperJeuxVideo\Request;
 
-use Scraper\Scraper\Annotation\Scraper;
+use Scraper\Scraper\Attribute\Scraper;
 
-/**
- * @Scraper(path="games/{id}/{machineId}")
- */
-class JeuxVideoGameRequest extends JeuxVideoRequest
+#[Scraper(path: 'games/{id}/{machineId}')]
+final class JeuxVideoGameRequest extends JeuxVideoRequest
 {
     protected int $id;
     protected int $machineId;
