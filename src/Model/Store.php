@@ -4,8 +4,8 @@ namespace Scraper\ScraperJeuxVideo\Model;
 
 class Store
 {
-    public ?int $id          = null;
-    public ?string $name     = null;
+    public ?int $id = null;
+    public ?string $name = null;
     public ?string $imageUrl = null;
 
     public ?int $machine = null;

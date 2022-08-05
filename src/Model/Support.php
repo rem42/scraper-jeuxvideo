@@ -4,7 +4,7 @@ namespace Scraper\ScraperJeuxVideo\Model;
 
 class Support
 {
-    public ?string $type  = null;
+    public ?string $type = null;
     public ?string $label = null;
     public ?string $title = null;
     /** @var array<int, StoreWebsite> */

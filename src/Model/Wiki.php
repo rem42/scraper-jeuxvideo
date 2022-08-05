@@ -4,13 +4,13 @@ namespace Scraper\ScraperJeuxVideo\Model;
 
 class Wiki
 {
-    public ?int $id             = null;
-    public ?int $category       = null;
-    public ?int $type           = null;
-    public ?string $title       = null;
-    public ?bool $isEditor      = null;
+    public ?int $id = null;
+    public ?int $category = null;
+    public ?int $type = null;
+    public ?string $title = null;
+    public ?bool $isEditor = null;
     public ?string $publishDate = null;
-    public ?string $imageUrl    = null;
+    public ?string $imageUrl = null;
     /** @var array<int, int> */
     public array $machines = [];
 

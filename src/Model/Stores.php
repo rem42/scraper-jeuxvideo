@@ -4,7 +4,7 @@ namespace Scraper\ScraperJeuxVideo\Model;
 
 class Stores
 {
-    public ?Paging $paging         = null;
+    public ?Paging $paging = null;
     public ?StoresDetails $details = null;
     /** @var array<int, Store> */
     public array $items = [];

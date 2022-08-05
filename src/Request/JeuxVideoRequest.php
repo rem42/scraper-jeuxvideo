@@ -12,9 +12,9 @@ use Scraper\Scraper\Request\ScraperRequest;
 #[Scraper(method: Method::GET, scheme: Scheme::HTTPS, host: 'api.jeuxvideo.com', path: 'v4/')]
 abstract class JeuxVideoRequest extends ScraperRequest implements RequestHeaders
 {
-    protected string $path   = '';
+    protected string $path = '';
     protected string $method = 'GET';
-    protected string $host   = 'api.jeuxvideo.com';
+    protected string $host = 'api.jeuxvideo.com';
 
     public function __construct(
         protected string $partnerKey,
@@ -32,9 +32,9 @@ abstract class JeuxVideoRequest extends ScraperRequest implements RequestHeaders
 
     private function getAuthorization(): string
     {
-        $dateTime  = new \DateTime();
+        $dateTime = new \DateTime();
         $timestamp = $dateTime->format('Y-m-d\TH:i:s\Z');
-        $string    = $this->partnerKey . "\n" . $timestamp . "\n" . $this->method . "\n" . $this->host . "\n/v4/" . $this->getPath() . "\n";
+        $string = $this->partnerKey . "\n" . $timestamp . "\n" . $this->method . "\n" . $this->host . "\n/v4/" . $this->getPath() . "\n";
 
         if ($this instanceof RequestQuery) {
             $query = $this->getQuery();

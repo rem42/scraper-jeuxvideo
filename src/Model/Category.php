@@ -4,7 +4,7 @@ namespace Scraper\ScraperJeuxVideo\Model;
 
 class Category
 {
-    public ?int $id      = null;
+    public ?int $id = null;
     public ?string $name = null;
     /** @var array<int, Type> */
     public array $types = [];

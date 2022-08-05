@@ -4,7 +4,7 @@ namespace Scraper\ScraperJeuxVideo\Model;
 
 class RelatedGame
 {
-    public ?int $id       = null;
+    public ?int $id = null;
     public ?string $title = null;
     /** @var array<int, int> */
     public array $genres = [];

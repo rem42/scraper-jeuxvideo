@@ -5,10 +5,10 @@ namespace Scraper\ScraperJeuxVideo\Model;
 class Config
 {
     public ?Customization $customizations = null;
-    public ?Asset $assets                 = null;
+    public ?Asset $assets = null;
     /** @var array<int, Category> */
     public array $categories = [];
-    public ?Tag $tags        = null;
+    public ?Tag $tags = null;
     /** @var array<int, Badge> */
     public array $badges = [];
     /** @var array<int, Smiley> */

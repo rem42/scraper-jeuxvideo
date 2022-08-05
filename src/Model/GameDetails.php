@@ -4,9 +4,9 @@ namespace Scraper\ScraperJeuxVideo\Model;
 
 class GameDetails
 {
-    public ?string $content       = null;
+    public ?string $content = null;
     public ?string $releaseDateFr = null;
-    public ?string $website       = null;
+    public ?string $website = null;
     /** @var array<int, int> */
     public array $genres = [];
     /** @var array<int, int> */

@@ -8,16 +8,16 @@ use Scraper\Scraper\Request\RequestQuery;
 #[Scraper(path: 'search/games')]
 final class JeuxVideoSearchGameRequest extends JeuxVideoRequest implements RequestQuery
 {
-    protected int $page     = 1;
-    protected int $perPage  = 20;
+    protected int $page = 1;
+    protected int $perPage = 20;
     protected string $query = '';
 
     public function getQuery(): array
     {
         return [
-            'page'    => $this->page,
+            'page' => $this->page,
             'perPage' => $this->perPage,
-            'q'       => $this->query,
+            'q' => $this->query,
         ];
     }
 
