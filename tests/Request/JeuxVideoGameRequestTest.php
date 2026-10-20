@@ -1,4 +1,6 @@
-<?php declare(strict_types=1);
+<?php
+
+declare(strict_types=1);
 
 namespace Scraper\ScraperJeuxVideo\Tests\Request;
 
@@ -9,7 +11,7 @@ use Symfony\Contracts\HttpClient\ResponseInterface;
 /**
  * @internal
  */
-final class JeuxVideoGameRequestTest extends AbtractRequestTest
+final class JeuxVideoGameRequestTest extends AbstractRequestTestCase
 {
     public function testJeuxVideoSearchGameRequest(): void
     {

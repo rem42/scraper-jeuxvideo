@@ -1,4 +1,6 @@
-<?php declare(strict_types=1);
+<?php
+
+declare(strict_types=1);
 
 namespace Scraper\ScraperJeuxVideo\Model;
 
@@ -9,12 +11,14 @@ class Store
     public ?string $imageUrl = null;
 
     public ?int $machine = null;
+
     /** @var array<int, Support> */
     public array $supports = [];
 
     public function addSupport(Support $support): self
     {
         $this->supports[] = $support;
+
         return $this;
     }
 }

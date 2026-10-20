@@ -1,4 +1,6 @@
-<?php declare(strict_types=1);
+<?php
+
+declare(strict_types=1);
 
 namespace Scraper\ScraperJeuxVideo\Tests\Request;
 
@@ -11,19 +13,20 @@ use Symfony\Contracts\HttpClient\ResponseInterface;
 /**
  * @internal
  */
-abstract class AbtractRequestTest extends TestCase
+abstract class AbstractRequestTestCase extends TestCase
 {
     private MockObject|ResponseInterface $responseInterface;
 
     protected function getClient(string $fixture): Client
     {
-        $this->responseInterface = $this->createMock(ResponseInterface::class);
+        $this->responseInterface = $this->createStub(ResponseInterface::class);
         $this->responseInterface
-            ->method('getStatusCode')->willReturn(200);
+            ->method('getStatusCode')->willReturn(200)
+        ;
         $this->responseInterface
             ->method('getContent')->willReturn(file_get_contents(__DIR__ . '/../fixtures/' . $fixture))
         ;
-        $httpClient = $this->createMock(HttpClientInterface::class);
+        $httpClient = $this->createStub(HttpClientInterface::class);
         $httpClient
             ->method('request')->willReturnCallback([$this, 'requestCallback'])
         ;

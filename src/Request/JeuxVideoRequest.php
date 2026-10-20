@@ -1,4 +1,6 @@
-<?php declare(strict_types=1);
+<?php
+
+declare(strict_types=1);
 
 namespace Scraper\ScraperJeuxVideo\Request;
 
@@ -18,7 +20,7 @@ abstract class JeuxVideoRequest extends ScraperRequest implements RequestHeaders
 
     public function __construct(
         protected string $partnerKey,
-        protected string $secretKey
+        protected string $secretKey,
     ) {}
 
     public function getHeaders(): array
@@ -43,6 +45,7 @@ abstract class JeuxVideoRequest extends ScraperRequest implements RequestHeaders
         }
 
         $signature = hash_hmac('sha256', $string, $this->secretKey);
+
         return 'PartnerKey=' . $this->partnerKey . ', Signature=' . $signature . ', Timestamp=' . $timestamp;
     }
 }

@@ -1,4 +1,6 @@
-<?php declare(strict_types=1);
+<?php
+
+declare(strict_types=1);
 
 namespace Scraper\ScraperJeuxVideo\Request;
 
@@ -24,18 +26,21 @@ final class JeuxVideoSearchGameRequest extends JeuxVideoRequest implements Reque
     public function setQuery(string $query): self
     {
         $this->query = $query;
+
         return $this;
     }
 
     public function setPage(int $page): self
     {
         $this->page = $page;
+
         return $this;
     }
 
     public function setPerPage(int $perPage): self
     {
         $this->perPage = $perPage;
+
         return $this;
     }
 

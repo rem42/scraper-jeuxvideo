@@ -1,4 +1,6 @@
-<?php declare(strict_types=1);
+<?php
+
+declare(strict_types=1);
 
 namespace Scraper\ScraperJeuxVideo\Request;
 
@@ -18,6 +20,7 @@ final class JeuxVideoGameImagesRequest extends JeuxVideoRequest
     public function setId(int $id): self
     {
         $this->id = $id;
+
         return $this;
     }
 
@@ -29,6 +32,7 @@ final class JeuxVideoGameImagesRequest extends JeuxVideoRequest
     public function setMachineId(int $machineId): self
     {
         $this->machineId = $machineId;
+
         return $this;
     }
 

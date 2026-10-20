@@ -1,4 +1,6 @@
-<?php declare(strict_types=1);
+<?php
+
+declare(strict_types=1);
 
 namespace Scraper\ScraperJeuxVideo\Model;
 
@@ -11,10 +13,12 @@ class Video
     public ?string $publishDate = null;
     public ?string $imageUrl = null;
     public ?string $webUrl = null;
+
     /** @var array<int, int> */
     public array $machines = [];
     public ?RelatedGame $relatedGame = null;
     public ?Targeting $targeting = null;
+
     /** @var array<int, VideoUrl> */
     public array $videoUrls = [];
     public ?string $dailymotionId = null;
@@ -26,12 +30,14 @@ class Video
     public function addMachine(int $machine): self
     {
         $this->machines[] = $machine;
+
         return $this;
     }
 
     public function addVideoUrl(VideoUrl $videoUrl): self
     {
         $this->videoUrls[] = $videoUrl;
+
         return $this;
     }
 }

@@ -1,4 +1,6 @@
-<?php declare(strict_types=1);
+<?php
+
+declare(strict_types=1);
 
 namespace Scraper\ScraperJeuxVideo\Model;
 
@@ -10,6 +12,7 @@ class SearchGame extends AbstractSearch
     public function addItem(GameSearch $item): self
     {
         $this->items[] = $item;
+
         return $this;
     }
 }
