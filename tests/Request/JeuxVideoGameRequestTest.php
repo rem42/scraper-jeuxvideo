@@ -28,6 +28,22 @@ final class JeuxVideoGameRequestTest extends AbstractRequestTestCase
         $this->assertInstanceOf(Game::class, $result);
     }
 
+    public function testUserReviewAverageDecimalAcceptsFloat(): void
+    {
+        $client = $this->getClient('game.json');
+
+        $request = new JeuxVideoGameRequest('partner', 'hash');
+        $request
+            ->setId(1237618)
+            ->setMachineId(22)
+        ;
+
+        /** @var Game $result */
+        $result = $client->send($request);
+
+        $this->assertSame(15.5, $result->reviews?->userReviewAverageDecimal);
+    }
+
     public function requestCallback(string $method, string $url, array $options): ResponseInterface
     {
         $this->assertEquals('GET', $method);

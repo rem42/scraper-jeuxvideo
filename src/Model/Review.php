@@ -8,5 +8,5 @@ class Review
 {
     public ?Test $test = null;
     public ?int $userReviewAverage = null;
-    public ?int $userReviewAverageDecimal = null;
+    public ?float $userReviewAverageDecimal = null;
 }
